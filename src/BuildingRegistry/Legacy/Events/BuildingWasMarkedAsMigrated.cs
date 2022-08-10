@@ -19,6 +19,7 @@ namespace BuildingRegistry.Legacy.Events
         [EventPropertyDescription("Metadata bij het event.")]
         public ProvenanceData Provenance { get; private set; }
 
+
         public BuildingWasMarkedAsMigrated(
             BuildingId buildingId,
             PersistentLocalId persistentLocalId)
